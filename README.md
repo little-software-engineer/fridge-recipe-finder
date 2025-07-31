@@ -33,11 +33,9 @@ cd smart-recipe-finder
 ### 2. Start the backend (in the server directory) :
 
 cd server
-# Optional: create and activate a virtual environment
-# python -m venv venv && source venv/bin/activate
-pip install -r requirements.txt
 ---
 node app.js
+---
 
 ### Start the frontend (in a new terminal window):
 cd client
