@@ -1,4 +1,4 @@
-# 🍽️ Smart Recipe Finder
+#  Smart Recipe Finder
 
 A full-stack web application built with **React (JavaScript)** on the frontend and **Python** with **SQLite** on the backend. Users can input ingredients and get smart recipe suggestions using the **Spoonacular API**. Each recipe includes a preview image, preparation time, basic info, and a link to full instructions. Registered users can also save their favorite recipes.
 
@@ -6,12 +6,12 @@ This application includes a clean and minimal UI with support for both **light a
 
 ## Features
 
-- 🔍 Ingredient-based recipe search using Spoonacular API
-- 🌓 Light / Dark mode toggle
-- 🌐 Language selection (English / Serbian)
-- 🔐 User authentication (registration & login)
-- 📌 Favorite recipe saving (for logged-in users)
-- 💻 Responsive and professional user interface
+-  Ingredient-based recipe search using Spoonacular API
+-  Light / Dark mode toggle
+-  Language selection (English / Serbian)
+-  User authentication (registration & login)
+-  Favorite recipe saving (for logged-in users)
+-  Responsive and professional user interface
 
 ## Tech Stack
 
@@ -50,5 +50,5 @@ API Key Setup
 To use the Spoonacular API, you'll need to sign up at https://spoonacular.com/food-api and obtain a free API key. This key should be stored in your backend code or loaded from environment variables, depending on your setup.
 
 Feel free to open issues or contribute to the project.
-Made with ❤️ by little-software-engineer
+Made with love by little-software-engineer
 
