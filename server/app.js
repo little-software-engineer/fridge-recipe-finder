@@ -100,10 +100,10 @@ app.get('/api/ingredients', async (req, res) => {
 
 
 app.listen(PORT, () => {
-    console.log(`✅ Server running at http://localhost:${PORT}`);
+    console.log(`Success: Server running at http://localhost:${PORT}`);
 });
 
-// ========== JWT AUTH MIDDLEWARE ==========
+
 function authMiddleware(req, res, next) {
     const auth = req.headers.authorization;
     if (!auth || !auth.startsWith('Bearer ')) {
